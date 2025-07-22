@@ -10,6 +10,7 @@ import CampaignSection from "@/components/organisms/CampaignSection";
 import PricingPlansSection from "@/components/organisms/PricingPlansSection";
 import BrandVoiceSection from "@/components/organisms/BrandVoiceSection";
 import FAQSection from "@/components/organisms/FAQSection";
+import Footer from "@/components/organisms/Footer";
 const LandingPage = () => {
   return (
 <div className="min-h-screen bg-dark-bg overflow-x-hidden">
@@ -22,8 +23,9 @@ const LandingPage = () => {
       <PricingPlansSection />
       <CampaignSection />
       <ComparisonSection />
-      <TestimonialsSection />
+<TestimonialsSection />
       <CTASection />
+      <Footer />
     </div>
   );
 };
