@@ -117,10 +117,10 @@ id: 3,
               }}
               viewport={{ once: true }}
               className="relative"
-            >
+>
               {/* Popular Badge */}
               {plan.popular && (
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
+                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
                   <div className="bg-neon-lime text-dark-bg px-4 py-1 rounded-full text-sm font-bold">
                     MOST POPULAR
                   </div>
