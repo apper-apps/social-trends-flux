@@ -137,11 +137,11 @@ const Footer = () => {
                   {link.name}
                 </a>
               ))}
-            </nav>
+</nav>
             
             {/* Copyright */}
             <div className="text-text-muted text-sm">
-              © 2024 Social Trends. All rights reserved.
+              © 2025 Social Trends. All rights reserved.
             </div>
           </div>
         </div>
