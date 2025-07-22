@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { ApperIcon } from '@/components/ApperIcon';
-import { Button } from '@/components/atoms/Button';
-import { toast } from 'react-toastify';
+import React, { useState } from 'react'
+import ApperIcon from '@/components/ApperIcon'
+import { Button } from '@/components/atoms/Button'
+import { toast } from 'react-toastify'
 
 const Footer = () => {
   const [email, setEmail] = useState('');
