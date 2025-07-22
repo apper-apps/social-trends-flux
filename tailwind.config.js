@@ -6,11 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
+colors: {
         'dark-bg': '#0A0A0B',
         'dark-card': '#1A1A1D',
+        'dark-input': '#1F1F1F',
         'neon-cyan': '#00F5FF',
         'neon-lime': '#39FF14',
+        'neon-blue': '#1E90FF',
         'text-primary': '#FFFFFF',
         'text-secondary': '#E0E0E0',
         'text-muted': '#B0B0B0',

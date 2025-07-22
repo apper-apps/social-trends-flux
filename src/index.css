@@ -98,10 +98,56 @@ body {
   font-size: 14px;
   padding: 12px 16px;
 }
+
+/* Authentication Modal Styles */
+.modal-backdrop {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.modal-shadow {
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5), 0 0 100px rgba(30, 144, 255, 0.1);
+  border: 1px solid rgba(30, 144, 255, 0.2);
+}
+
+.auth-input {
+  background: #1F1F1F;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: #E5E7EB;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: #1E90FF;
+  box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.1), 0 0 20px rgba(30, 144, 255, 0.3);
+}
+
+.auth-input::placeholder {
+  color: #9CA3AF;
+}
+
+.auth-button-glow:hover {
+  box-shadow: 0 0 20px rgba(30, 144, 255, 0.4), 0 4px 12px rgba(30, 144, 255, 0.2);
+  transform: translateY(-1px);
+}
+
 /* Grid Pattern Background */
 .grid-pattern {
   background-image: 
     linear-gradient(rgba(0, 245, 255, 0.1) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 245, 255, 0.1) 1px, transparent 1px);
   background-size: 20px 20px;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 480px) {
+  .modal-shadow {
+    margin: 16px;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+  }
 }
