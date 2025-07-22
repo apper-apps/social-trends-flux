@@ -3,6 +3,7 @@
     "Id": 1,
     "title": "AI Discovery Engine",
     "description": "Real-time trend monitoring across 6 major platforms",
+    "tooltip": "Our AI continuously scans Twitter, Instagram, TikTok, LinkedIn, YouTube, and Reddit to identify emerging trends before they peak. Advanced natural language processing analyzes millions of conversations daily, spotting viral patterns and topic clusters that matter to your audience.",
     "icon": "Radar",
     "glowColor": "cyan"
   },
@@ -10,6 +11,7 @@
     "Id": 2,
     "title": "Brand Voice Intelligence",
     "description": "Authentic content that matches your unique voice",
+    "tooltip": "Machine learning models analyze your existing content, social media posts, and brand guidelines to understand your unique tone, vocabulary, and messaging style. Every piece of AI-generated content maintains perfect brand consistency while adapting to different platforms and audiences.",
     "icon": "Volume2",
     "glowColor": "lime"
   },
@@ -17,6 +19,7 @@
     "Id": 3,
     "title": "Strategic Campaign Generator",
     "description": "30-day content plans generated in seconds",
+    "tooltip": "Input your goals and target audience, and our AI creates comprehensive month-long campaigns with daily content suggestions, optimal posting schedules, and cross-platform strategies. Each campaign includes trending hashtags, engagement hooks, and performance predictions.",
     "icon": "Calendar",
     "glowColor": "cyan"
   },
@@ -24,6 +27,7 @@
     "Id": 4,
     "title": "Content Studio",
     "description": "Multi-AI assistant for maximum creativity",
+    "tooltip": "Access multiple specialized AI models in one interface: copywriting AI for captions, visual AI for image concepts, video AI for script ideas, and trend AI for timely content suggestions. Switch between different creative approaches to find the perfect content angle.",
     "icon": "Edit",
     "glowColor": "lime"
   },
@@ -31,6 +35,7 @@
     "Id": 5,
     "title": "Smart Publishing",
     "description": "Automated posting at optimal times",
+    "tooltip": "AI analyzes your audience's online behavior patterns across all platforms to determine peak engagement times. Automatically schedules and publishes content when your audience is most active, with platform-specific optimizations for maximum reach and engagement.",
     "icon": "Rocket",
     "glowColor": "cyan"
   },
@@ -38,6 +43,7 @@
     "Id": 6,
     "title": "Performance Analytics",
     "description": "Unified dashboard tracking all channels",
+    "tooltip": "Comprehensive analytics combining data from all your social platforms into intelligent insights. AI identifies top-performing content patterns, audience behavior trends, and optimization opportunities while predicting future content performance.",
     "icon": "BarChart3",
     "glowColor": "lime"
   }

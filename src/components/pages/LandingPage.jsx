@@ -1,22 +1,24 @@
-import HeroSection from "@/components/organisms/HeroSection";
-import ProblemSection from "@/components/organisms/ProblemSection";
+import React from "react";
 import IntelligenceSection from "@/components/organisms/IntelligenceSection";
-import BrandVoiceSection from "@/components/organisms/BrandVoiceSection";
 import FeaturesShowcaseSection from "@/components/organisms/FeaturesShowcaseSection";
-import PricingPlansSection from "@/components/organisms/PricingPlansSection";
-import CampaignSection from "@/components/organisms/CampaignSection";
-import ComparisonSection from "@/components/organisms/ComparisonSection";
 import TestimonialsSection from "@/components/organisms/TestimonialsSection";
+import ComparisonSection from "@/components/organisms/ComparisonSection";
+import ProblemSection from "@/components/organisms/ProblemSection";
+import HeroSection from "@/components/organisms/HeroSection";
 import CTASection from "@/components/organisms/CTASection";
-
+import CampaignSection from "@/components/organisms/CampaignSection";
+import PricingPlansSection from "@/components/organisms/PricingPlansSection";
+import BrandVoiceSection from "@/components/organisms/BrandVoiceSection";
+import FAQSection from "@/components/organisms/FAQSection";
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-dark-bg overflow-x-hidden">
+<div className="min-h-screen bg-dark-bg overflow-x-hidden">
       <HeroSection />
       <ProblemSection />
-<IntelligenceSection />
+      <IntelligenceSection />
       <BrandVoiceSection />
-<FeaturesShowcaseSection />
+      <FeaturesShowcaseSection />
+      <FAQSection />
       <PricingPlansSection />
       <CampaignSection />
       <ComparisonSection />
