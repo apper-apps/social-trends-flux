@@ -11,9 +11,12 @@ import PricingPlansSection from "@/components/organisms/PricingPlansSection";
 import BrandVoiceSection from "@/components/organisms/BrandVoiceSection";
 import FAQSection from "@/components/organisms/FAQSection";
 import Footer from "@/components/organisms/Footer";
+import Navbar from "@/components/organisms/Navbar";
+
 const LandingPage = () => {
   return (
-<div className="min-h-screen bg-dark-bg overflow-x-hidden">
+    <div className="min-h-screen bg-dark-bg overflow-x-hidden">
+      <Navbar />
       <HeroSection />
       <ProblemSection />
       <IntelligenceSection />
