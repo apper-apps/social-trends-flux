@@ -4,7 +4,7 @@ import Button from "@/components/atoms/Button";
 import ApperIcon from "@/components/ApperIcon";
 
 const PricingPlansSection = () => {
-  const plans = [
+const plans = [
     {
       id: 1,
       name: "STARTER PLAN",
@@ -26,6 +26,26 @@ const PricingPlansSection = () => {
     },
     {
       id: 2,
+      name: "SOLOPRENEUR",
+      price: "$29.99",
+      period: "/MONTH",
+      popular: false,
+      glowColor: "orange",
+      features: [
+        "10 trend monitoring per month",
+        "Advanced content generation",
+        "2 brand voice profiles",
+        "Auto-publishing to 3 channels",
+        "Performance analytics",
+        "Email support"
+      ],
+      cta: {
+        text: "Start Free Trial",
+        variant: "secondary"
+      }
+    },
+    {
+id: 3,
       name: "CREATOR PLAN",
       price: "$49",
       period: "/MONTH",
@@ -45,7 +65,7 @@ const PricingPlansSection = () => {
       }
     },
     {
-      id: 3,
+      id: 4,
       name: "BUSINESS PLAN",
       price: "$149",
       period: "/MONTH",
@@ -110,10 +130,12 @@ const PricingPlansSection = () => {
               <Card
                 className={`
                   bg-dark-card p-8 h-full relative
-                  ${plan.glowColor === 'lime' 
+${plan.glowColor === 'lime' 
                     ? 'glow-border-lime hover:glow-intensify-lime' 
                     : plan.glowColor === 'cyan'
                     ? 'glow-border-cyan hover:glow-intensify-cyan'
+                    : plan.glowColor === 'orange'
+                    ? 'glow-border-orange hover:glow-intensify-orange'
                     : 'border border-white/20 hover:border-white/40'
                   }
                   transition-all duration-300 cursor-pointer
@@ -150,10 +172,12 @@ const PricingPlansSection = () => {
                         <li key={featureIndex} className="flex items-start space-x-3">
                           <div className={`
                             mt-1 flex-shrink-0
-                            ${plan.glowColor === 'lime' 
+${plan.glowColor === 'lime' 
                               ? 'text-neon-lime' 
                               : plan.glowColor === 'cyan'
                               ? 'text-neon-cyan'
+                              : plan.glowColor === 'orange'
+                              ? 'text-orange-400'
                               : 'text-text-muted'
                             }
                           `}>
@@ -181,8 +205,10 @@ const PricingPlansSection = () => {
                           ? 'bg-neon-lime text-dark-bg hover:bg-opacity-90 animate-pulse-glow' 
                           : ''
                         }
-                        ${plan.glowColor === 'cyan' && !plan.popular
+${plan.glowColor === 'cyan' && !plan.popular
                           ? 'border-2 border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-dark-bg glow-border-cyan hover:glow-intensify-cyan'
+                          : plan.glowColor === 'orange' && !plan.popular
+                          ? 'border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-dark-bg glow-border-orange hover:glow-intensify-orange'
                           : ''
                         }
                       `}

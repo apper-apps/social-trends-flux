@@ -29,6 +29,11 @@ body {
   box-shadow: 0 0 20px rgba(255, 184, 0, 0.2);
 }
 
+.hover\:glow-intensify-orange:hover {
+  border-color: rgba(255, 184, 0, 0.6);
+  box-shadow: 0 0 30px rgba(255, 184, 0, 0.4);
+  transform: translateY(-2px);
+}
 .glow-border-yellow {
   border: 1px solid rgba(255, 235, 59, 0.3);
   box-shadow: 0 0 20px rgba(255, 235, 59, 0.2);
