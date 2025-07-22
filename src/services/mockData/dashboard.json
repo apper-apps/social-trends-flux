@@ -1,0 +1,71 @@
+{
+  "stats": {
+    "activeTrends": 847,
+    "audienceInsights": 1200000,
+    "contentCreated": 156,
+    "scheduledPosts": 23,
+    "recentActivity": [
+      {
+        "Id": 1,
+        "description": "New trending topic detected: #AIMarketing",
+        "timestamp": "2 hours ago"
+      },
+      {
+        "Id": 2,
+        "description": "Content scheduled for Instagram",
+        "timestamp": "4 hours ago"
+      },
+      {
+        "Id": 3,
+        "description": "Brand voice analysis completed",
+        "timestamp": "6 hours ago"
+      },
+      {
+        "Id": 4,
+        "description": "Weekly trend report generated",
+        "timestamp": "1 day ago"
+      },
+      {
+        "Id": 5,
+        "description": "New competitor analysis available",
+        "timestamp": "2 days ago"
+      }
+    ]
+  },
+  "notifications": [
+    {
+      "Id": 1,
+      "message": "Your scheduled post for LinkedIn is ready for review",
+      "timestamp": "5 minutes ago",
+      "read": false
+    },
+    {
+      "Id": 2,
+      "message": "New trending topic detected in your industry",
+      "timestamp": "1 hour ago",
+      "read": false
+    },
+    {
+      "Id": 3,
+      "message": "Weekly performance report is now available",
+      "timestamp": "3 hours ago",
+      "read": true
+    },
+    {
+      "Id": 4,
+      "message": "Brand voice consistency score improved to 95%",
+      "timestamp": "1 day ago",
+      "read": true
+    }
+  ],
+  "userProfile": {
+    "Id": 1,
+    "name": "Sarah Johnson",
+    "email": "sarah@company.com",
+    "initials": "SJ",
+    "avatar": "",
+    "role": "Marketing Director",
+    "company": "Tech Innovations Inc.",
+    "joinedDate": "2023-01-15"
+  }
+}
