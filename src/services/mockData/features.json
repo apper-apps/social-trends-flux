@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "title": "Learn your unique voice automatically",
+    "description": "AI analyzes your existing content to understand your brand voice",
+    "icon": "Brain",
+    "glowColor": "cyan"
+  },
+  {
+    "Id": 2,
+    "title": "Maintain brand consistency at scale",
+    "description": "Every piece of content maintains your authentic voice",
+    "icon": "Shield",
+    "glowColor": "lime"
+  },
+  {
+    "Id": 3,
+    "title": "Adapt tone for different platforms",
+    "description": "Optimize voice for each social media platform automatically",
+    "icon": "Settings",
+    "glowColor": "cyan"
+  }
+]

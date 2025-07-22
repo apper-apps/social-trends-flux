@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "category": "Traditional Social Listening (BuzzSumo, Brand24)",
+    "limitation": "Shows what's trending but no content creation",
+    "socialTrendsAdvantage": "They give you data. We give you action.",
+    "accentColor": "red"
+  },
+  {
+    "Id": 2,
+    "category": "AI Content Generators (Jasper, Copy.ai)",
+    "limitation": "Generic content without audience insights",
+    "socialTrendsAdvantage": "They create content. We create strategy.",
+    "accentColor": "orange"
+  },
+  {
+    "Id": 3,
+    "category": "Social Media Schedulers (Hootsuite, Buffer)",
+    "limitation": "Scheduling without strategic direction",
+    "socialTrendsAdvantage": "They distribute content. We create intelligence.",
+    "accentColor": "yellow"
+  }
+]

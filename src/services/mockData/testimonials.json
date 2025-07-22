@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "author": "Sarah Chen",
+    "role": "Marketing Director",
+    "company": "TechFlow",
+    "content": "Social Trends transformed our content strategy overnight. We went from posting randomly to having a data-driven content calendar that consistently drives engagement and leads.",
+    "accentColor": "cyan"
+  },
+  {
+    "Id": 2,
+    "author": "Marcus Rodriguez",
+    "role": "Business Coach",
+    "company": "Independent",
+    "content": "As a solopreneur, I was spending 15 hours a week on content creation. Now I spend 2 hours and get better results. Social Trends is a game-changer.",
+    "accentColor": "lime"
+  },
+  {
+    "Id": 3,
+    "author": "Jennifer Park",
+    "role": "CMO",
+    "company": "GrowthLabs",
+    "content": "The Brand Voice AI is incredible. It captures our company's tone perfectly, and our audience can't tell the difference between AI-generated and human-written content.",
+    "accentColor": "cyan"
+  }
+]
