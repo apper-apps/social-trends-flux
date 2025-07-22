@@ -12,5 +12,33 @@
     "description": "Authentic content that matches your unique voice",
     "icon": "Volume2",
     "glowColor": "lime"
+  },
+  {
+    "Id": 3,
+    "title": "Strategic Campaign Generator",
+    "description": "30-day content plans generated in seconds",
+    "icon": "Calendar",
+    "glowColor": "cyan"
+  },
+  {
+    "Id": 4,
+    "title": "Content Studio",
+    "description": "Multi-AI assistant for maximum creativity",
+    "icon": "Edit",
+    "glowColor": "lime"
+  },
+  {
+    "Id": 5,
+    "title": "Smart Publishing",
+    "description": "Automated posting at optimal times",
+    "icon": "Rocket",
+    "glowColor": "cyan"
+  },
+  {
+    "Id": 6,
+    "title": "Performance Analytics",
+    "description": "Unified dashboard tracking all channels",
+    "icon": "BarChart3",
+    "glowColor": "lime"
   }
 ]

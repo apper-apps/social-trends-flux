@@ -61,7 +61,7 @@ const FeaturesShowcaseSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 animate-glow">
+<h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 animate-glow">
             Everything You Need to{" "}
             <span className="gradient-text-cyan">Dominate</span>{" "}
             Content Marketing

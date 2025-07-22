@@ -3,6 +3,7 @@ import ProblemSection from "@/components/organisms/ProblemSection";
 import IntelligenceSection from "@/components/organisms/IntelligenceSection";
 import BrandVoiceSection from "@/components/organisms/BrandVoiceSection";
 import FeaturesShowcaseSection from "@/components/organisms/FeaturesShowcaseSection";
+import PricingPlansSection from "@/components/organisms/PricingPlansSection";
 import CampaignSection from "@/components/organisms/CampaignSection";
 import ComparisonSection from "@/components/organisms/ComparisonSection";
 import TestimonialsSection from "@/components/organisms/TestimonialsSection";
@@ -15,7 +16,8 @@ const LandingPage = () => {
       <ProblemSection />
 <IntelligenceSection />
       <BrandVoiceSection />
-      <FeaturesShowcaseSection />
+<FeaturesShowcaseSection />
+      <PricingPlansSection />
       <CampaignSection />
       <ComparisonSection />
       <TestimonialsSection />
