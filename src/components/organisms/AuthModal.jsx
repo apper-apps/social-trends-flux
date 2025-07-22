@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { toast } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 import ApperIcon from '@/components/ApperIcon';
 import Button from '@/components/atoms/Button';
-
 const AuthModal = ({ isOpen, onClose }) => {
+  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('login');
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
@@ -13,7 +14,6 @@ const AuthModal = ({ isOpen, onClose }) => {
     password: ''
   });
   const [isLoading, setIsLoading] = useState(false);
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -22,7 +22,7 @@ const AuthModal = ({ isOpen, onClose }) => {
     }));
   };
 
-  const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
     
@@ -32,12 +32,15 @@ const AuthModal = ({ isOpen, onClose }) => {
       
       if (activeTab === 'login') {
         toast.success('Welcome back! Login successful.');
+        onClose();
+        setFormData({ name: '', email: '', password: '' });
+        navigate('/dashboard');
       } else {
         toast.success('Account created successfully! Welcome aboard.');
+        onClose();
+        setFormData({ name: '', email: '', password: '' });
+        navigate('/dashboard');
       }
-      
-      onClose();
-      setFormData({ name: '', email: '', password: '' });
     } catch (error) {
       toast.error('Something went wrong. Please try again.');
     } finally {
@@ -45,13 +48,14 @@ const AuthModal = ({ isOpen, onClose }) => {
     }
   };
 
-  const handleGoogleAuth = async () => {
+const handleGoogleAuth = async () => {
     setIsLoading(true);
     try {
       // Simulate Google OAuth
       await new Promise(resolve => setTimeout(resolve, 1000));
       toast.success('Google authentication successful!');
       onClose();
+      navigate('/dashboard');
     } catch (error) {
       toast.error('Google authentication failed. Please try again.');
     } finally {

@@ -4,7 +4,6 @@ import { useState } from "react";
 import LandingPage from "@/components/pages/LandingPage";
 import PricingPage from "@/components/pages/PricingPage";
 import AuthModal from "@/components/organisms/AuthModal";
-
 function App() {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
@@ -13,9 +12,10 @@ function App() {
 return (
     <Router>
       <div className="App">
-        <Routes>
+<Routes>
           <Route path="/" element={<LandingPage openAuthModal={openAuthModal} />} />
           <Route path="/pricing" element={<PricingPage openAuthModal={openAuthModal} />} />
+          <Route path="/dashboard" element={<div className="min-h-screen bg-dark-bg flex items-center justify-center"><div className="text-center"><h1 className="text-4xl font-bold text-white mb-4">Welcome to Dashboard</h1><p className="text-text-secondary">You have successfully logged in!</p></div></div>} />
         </Routes>
         <AuthModal isOpen={isAuthModalOpen} onClose={closeAuthModal} />
         <ToastContainer
