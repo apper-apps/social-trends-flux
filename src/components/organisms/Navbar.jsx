@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import ApperIcon from '@/components/ApperIcon';
 import Button from '@/components/atoms/Button';
 
-const Navbar = () => {
+const Navbar = ({ openAuthModal }) => {
   const [isOpen, setIsOpen] = useState(false);
 
 const navLinks = [
@@ -35,12 +35,12 @@ const navLinks = [
                 {link.name}
               </a>
             ))}
-            <a
-              href="#login"
+<button
+              onClick={openAuthModal}
               className="text-text-secondary hover:text-neon-cyan transition-colors duration-200 font-medium"
             >
               Login
-            </a>
+            </button>
             <Button
               variant="outline"
               size="sm"
@@ -81,13 +81,15 @@ const navLinks = [
                 {link.name}
               </a>
             ))}
-            <a
-              href="#login"
-              className="block text-text-secondary hover:text-neon-cyan transition-colors duration-200 font-medium py-2"
-              onClick={() => setIsOpen(false)}
+<button
+              onClick={() => {
+                openAuthModal();
+                setIsOpen(false);
+              }}
+              className="block text-text-secondary hover:text-neon-cyan transition-colors duration-200 font-medium py-2 text-left w-full"
             >
               Login
-            </a>
+            </button>
             <div className="pt-2">
               <Button
                 variant="outline"

@@ -13,10 +13,10 @@ import FAQSection from "@/components/organisms/FAQSection";
 import Footer from "@/components/organisms/Footer";
 import Navbar from "@/components/organisms/Navbar";
 
-const LandingPage = () => {
+const LandingPage = ({ openAuthModal }) => {
   return (
     <div className="min-h-screen bg-dark-bg overflow-x-hidden">
-      <Navbar />
+      <Navbar openAuthModal={openAuthModal} />
       <HeroSection />
       <ProblemSection />
       <IntelligenceSection />
