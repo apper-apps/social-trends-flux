@@ -102,10 +102,10 @@ id: 3,
             Pricing &{" "}
             <span className="gradient-text-lime">Plans</span>
           </h2>
-        </motion.div>
+</motion.div>
 
         {/* Pricing Cards Grid */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-4 gap-8">
           {plans.map((plan, index) => (
             <motion.div
               key={plan.id}
