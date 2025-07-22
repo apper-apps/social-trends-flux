@@ -81,9 +81,9 @@ const CTASection = () => {
                 className="text-xl px-12 py-6 bg-neon-lime text-dark-bg font-bold shadow-2xl"
                 style={{
                   boxShadow: '0 0 30px rgba(57, 255, 20, 0.6), 0 0 60px rgba(57, 255, 20, 0.3)'
-                }}
+}}
               >
-                Start Your Free 14-Day Trial
+                Get Started Now
               </Button>
             </motion.div>
             

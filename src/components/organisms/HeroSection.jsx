@@ -65,10 +65,10 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.8, duration: 0.8 }}
+transition={{ delay: 0.8, duration: 0.8 }}
             >
               <Button size="lg" className="text-lg px-8 py-4">
-                Start Your Free Strategy Session
+                Start Strategy Session
               </Button>
               <Button variant="secondary" size="lg" className="text-lg px-8 py-4">
                 Watch 2-Minute Demo
